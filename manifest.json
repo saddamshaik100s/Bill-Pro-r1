@@ -1,38 +1,37 @@
-
-  "icons": [
-    {
-        "src": "icon-192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
-    },
-    {
-        "src": "icon-512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
-    },
-    {
-        "src": "icon-512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-    }
-]
 {
-  "background_color": "#fcf9f9",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "BillPro r1",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "Bill Pro",
-  "start_url": " https://saddamshaik100s.github.io/Bill-Pro-r1/",
-  "theme_color": "#868282",
   "id": "BPRV1",
+  "name": "BillPro r1",
+  "short_name": "Bill Pro",
   "description": "Best Billing app",
   "lang": "en",
-  "categories": [
-    "business"
+  "dir": "ltr",
+  "categories": ["business"],
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fcf9f9",
+  "theme_color": "#868282",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
+ 
+ 
