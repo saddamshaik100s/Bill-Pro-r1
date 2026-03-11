@@ -1,4 +1,4 @@
-{
+
   "icons": [
     {
         "src": "icon-192.png",
@@ -19,6 +19,7 @@
         "purpose": "maskable"
     }
 ]
+{
   "background_color": "#fcf9f9",
   "dir": "ltr",
   "display": "standalone",
