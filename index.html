@@ -2739,5 +2739,14 @@ function updDT(){
   }catch(e){console.error('Init error:',e);document.getElementById('bnav').style.display='none'}
 })();
 </script>
+   <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('Service Worker Registered!', reg))
+        .catch(err => console.log('Service Worker Failed!', err));
+    });
+  }
+</script>
 </body>
 </html>
