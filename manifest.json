@@ -1,12 +1,11 @@
-
- {
+{
   "id": "BPRV1",
-  "name": "BillPro r1",
+  "name": "Bill Pro r1",
   "short_name": "Bill Pro",
-  "description": "Best Billing app",
+  "description": "A smart and fast billing application for professional business tracking.",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["business"],
+  "categories": ["business", "productivity"],
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -34,4 +33,3 @@
     }
   ]
 }
- 
